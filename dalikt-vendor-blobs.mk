@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/dalikt/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 	vendor/samsung/dalikt/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	vendor/samsung/dalikt/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+	vendor/samsung/dalikt/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
 	vendor/samsung/dalikt/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
 	vendor/samsung/dalikt/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
 	vendor/samsung/dalikt/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
@@ -54,6 +55,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/dalikt/proprietary/lib/libgsl.so:system/lib/libgsl.so \
 	vendor/samsung/dalikt/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
 	vendor/samsung/dalikt/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+	vendor/samsung/dalikt/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	vendor/samsung/dalikt/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so
 
 # GPS
@@ -148,7 +150,7 @@ PRODUCT_COPY_FILES += \
 # NFC
 PRODUCT_COPY_FILES += \
 	vendor/samsung/dalikt/proprietary/lib/hw/nfc.qcom.so:system/lib/hw/nfc.qcom.so \
-	vendor/samsung/dalikt/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+	vendor/samsung/dalikt/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so
 
 # Unsorted
 PRODUCT_COPY_FILES += \
