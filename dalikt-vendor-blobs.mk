@@ -147,6 +147,15 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/dalikt/proprietary/etc/wifi/nvram_mfg_b2.txt:system/etc/wifi/nvram_mfg_b2.txt \
 	vendor/samsung/dalikt/proprietary/etc/wifi/nvram_mfg.txt_semcove:system/etc/wifi/nvram_mfg.txt_semcove
 
+# DMB
+PRODUCT_COPY_FILES += \
+	vendor/samsung/dalikt/proprietary/bin/dmbserver:system/bin/dmbserver \
+	vendor/samsung/dalikt/proprietary/lib/libdmbControlMain.so:system/lib/libdmbControlMain.so \
+	vendor/samsung/dalikt/proprietary/lib/libdmbFrmIF.so:system/lib/libdmbFrmIF.so \
+	vendor/samsung/dalikt/proprietary/lib/libdmbMW.so:system/lib/libdmbMW.so \
+	vendor/samsung/dalikt/proprietary/lib/libdmbPGL.so:system/lib/libdmbPGL.so \
+	vendor/samsung/dalikt/proprietary/lib/libdmb_jni.so:system/lib/libdmb_jni.so
+
 # NFC
 PRODUCT_COPY_FILES += \
 	vendor/samsung/dalikt/proprietary/lib/hw/nfc.qcom.so:system/lib/hw/nfc.qcom.so \
